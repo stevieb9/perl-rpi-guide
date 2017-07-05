@@ -1,0 +1,67 @@
+
+Broad overview:
+---------------
+
+- very brief intro to the Pi, its capabilities, and overview of the features and
+  limitations of the software
+
+- a synopsis of what will be being taught, formats/conventions that will be used
+
+- basic intro on creating and using a Pi object
+
+- intro to the most basic part of the Pi, the GPIO
+
+- examples of creating and using a GPIO pin at the most basic level (INPUT,
+  OUTPUT, HIGH and LOW etc)
+
+- intro and examples using advanced pin features (interrupts, PWM, pull up/down
+  etc)
+
+- workshop: using simple pin-based sensors and devices (LEDs, hygrometers,
+  thermo-resistors, distance sensors etc)
+
+- detailed overview of the communication mechanisms included (I2C, Serial, SPI
+  etc)
+
+- workshop: detailed overview of using the comms, starting very basic, leading
+  into writing your own device/sensor modules using the software
+
+- workshop: using an LCD and/or OLED screen to display things on it
+
+- workshop: intro to and using Analog to Digital converters
+
+- workshop: intro to and using Digital to Analog converters
+
+- workshop: intro to and using Digital Potentiometers
+
+- workshop: intro to and using shift registers (basic through to advanced usage)
+
+- workshop: using a GPS module
+
+- workshop: advanced uses: utilizing several ICs and sensors in much larger and
+  more involved projects (probably put together a few of these)
+
+- workshop: connecting to and using features of an Arduino with the Pi (over
+  varying communication methods, including example Arduino sketches)
+
+- how this software came about, and some basic information on the underlying
+  parts that allow it to work
+
+- extensive article on how I ensure the code is fully tested after each commit
+  on a custom hardware test platform
+
+- possibly some details/photos on some of my real life projects I use at home
+  (my indoor grow room automation system for example)
+
+- possibly a demo example of writing a web UI with jQuery to automate and
+  provide a GUI of a basic project
+
+Individual item articles (potential sections):
+----------------------------------------------
+
+- link to datasheet
+- list of issues or possible enhancements
+- link to relevant section in the Pi datasheet
+- link to the specific module that houses the code
+- link to a C/C++ example
+- link to Python equivalent
